@@ -16,8 +16,8 @@ int main(){
 
     // Getting input for student1
     cout << "Enter Name for student 1: ";
-    cin.sync(); // Clear the input buffer properly before getline()
-    getline(cin, student1. name); // Use getline() to capture full name with spaces
+    cin.sync(); // Clear the input buffer properly 
+    getline(cin, student1. name); // To capture full name with spaces
 
     cout << "Enter roll number for student 1: ";
     cin >> student1. rollNumber;
